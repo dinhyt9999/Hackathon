@@ -13,3 +13,5 @@ SongRouter.post("/",(req,res) => {
         res.send({songFound});
     });
 });
+
+module.exports = SongRouter;

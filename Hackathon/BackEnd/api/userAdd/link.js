@@ -10,3 +10,5 @@ LinkRouter.post('/',(req,res) => {
         else res.send({message: "success"});
     })
 })
+
+module.exports = LinkRouter;
